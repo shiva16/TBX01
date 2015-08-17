@@ -9283,7 +9283,7 @@ Based on TI Design Note DN007&lt;br&gt;</description>
 <part name="R21" library="microbuilder" deviceset="RESISTOR" device="0603" value="4.7k"/>
 <part name="R22" library="microbuilder" deviceset="RESISTOR" device="0603" value="4.7k"/>
 <part name="R23" library="microbuilder" deviceset="RESISTOR" device="0603" value="4.7k"/>
-<part name="D1" library="microbuilder" deviceset="DIODE" device="SMA"/>
+<part name="D1" library="microbuilder" deviceset="DIODE" device="SOD-123"/>
 </parts>
 <sheets>
 <sheet>
@@ -10261,9 +10261,9 @@ Based on TI Design Note DN007&lt;br&gt;</description>
 <wire x1="-106.68" y1="10.16" x2="-38.1" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="10.16" x2="-38.1" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="P$1"/>
-<pinref part="Y1" gate="G$1" pin="1"/>
+<pinref part="Y1" gate="G$1" pin="2"/>
 <wire x1="-38.1" y1="2.54" x2="-38.1" y2="0" width="0.1524" layer="91"/>
-<wire x1="-38.1" y1="2.54" x2="-35.56" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="2.54" x2="-30.48" y2="2.54" width="0.1524" layer="91"/>
 <junction x="-38.1" y="2.54"/>
 </segment>
 </net>
@@ -10279,8 +10279,8 @@ Based on TI Design Note DN007&lt;br&gt;</description>
 <segment>
 <pinref part="C7" gate="G$1" pin="P$1"/>
 <wire x1="-27.94" y1="2.54" x2="-27.94" y2="0" width="0.1524" layer="91"/>
-<pinref part="Y1" gate="G$1" pin="2"/>
-<wire x1="-30.48" y1="2.54" x2="-27.94" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="Y1" gate="G$1" pin="1"/>
+<wire x1="-35.56" y1="2.54" x2="-27.94" y2="2.54" width="0.1524" layer="91"/>
 <junction x="-27.94" y="2.54"/>
 <wire x1="5.08" y1="25.4" x2="5.08" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="10.16" x2="-27.94" y2="10.16" width="0.1524" layer="91"/>
