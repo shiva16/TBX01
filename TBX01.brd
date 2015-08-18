@@ -2728,7 +2728,6 @@ Your Eurocircuits Team
 <wire x1="27.8184" y1="28.3826" x2="27.3184" y2="28.3826" width="0" layer="19" extent="16-16"/>
 <wire x1="1.25" y1="5.918" x2="4.826" y2="4.992" width="0" layer="19" extent="1-16"/>
 <wire x1="1.73" y1="27.56" x2="4.953" y2="30.353" width="0" layer="19" extent="1-1"/>
-<wire x1="29.0684" y1="24.1326" x2="24.726" y2="24.257" width="0" layer="19" extent="1-16"/>
 <wire x1="33.322" y1="9.718" x2="37.846" y2="10.16" width="0" layer="19" extent="1-1"/>
 <wire x1="33.6414" y1="28.067" x2="37.846" y2="25.4" width="0" layer="19" extent="16-16"/>
 <wire x1="33.616" y1="30.3022" x2="33.6414" y2="28.067" width="0" layer="19" extent="16-16"/>
@@ -2738,6 +2737,9 @@ Your Eurocircuits Team
 <wire x1="22.606" y1="32.884" x2="20.555" y2="32.884" width="0" layer="19" extent="16-16"/>
 <wire x1="1.576" y1="14.334" x2="4.226" y2="19.634" width="0" layer="19" extent="16-16"/>
 <wire x1="44.1198" y1="8.5734" x2="45.89" y2="10.944" width="0" layer="19" extent="1-16"/>
+<wire x1="29.0684" y1="24.1326" x2="30.1472" y2="24.1326" width="0.3048" layer="16"/>
+<wire x1="30.1472" y1="24.1326" x2="30.2768" y2="24.003" width="0.3048" layer="16"/>
+<wire x1="30.2768" y1="24.003" x2="27.8184" y2="28.3826" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="VDD">
 <contactref element="C4" pad="1"/>
