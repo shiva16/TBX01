@@ -7950,6 +7950,492 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="TI_antenna">
+<packages>
+<package name="DN007+5">
+<wire x1="-8.6" y1="-3.3" x2="16.9" y2="-3.3" width="0.127" layer="21" style="shortdash"/>
+<wire x1="16.94" y1="3.61" x2="16.94" y2="1.4" width="0.25" layer="21"/>
+<wire x1="17.94" y1="3.61" x2="17.94" y2="2.4" width="0.25" layer="21"/>
+<wire x1="18.94" y1="3.61" x2="18.94" y2="2.4" width="0.25" layer="21"/>
+<wire x1="19.94" y1="3.61" x2="19.94" y2="2.4" width="0.25" layer="21"/>
+<wire x1="20.94" y1="3.61" x2="20.94" y2="2.4" width="0.25" layer="21"/>
+<wire x1="15.94" y1="3.61" x2="15.94" y2="2.4" width="0.25" layer="21"/>
+<wire x1="14.94" y1="3.61" x2="14.94" y2="2.4" width="0.25" layer="21"/>
+<wire x1="13.94" y1="3.61" x2="13.94" y2="2.4" width="0.25" layer="21"/>
+<smd name="FEED" x="2.22" y="-2.8" dx="0.46" dy="1" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="GND@1" x="1.035" y="-2.93" dx="0.74" dy="1.01" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="GND" x="-1.16" y="-2.93" dx="0.74" dy="1.01" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<polygon width="0.25" layer="1">
+<vertex x="2.115" y="-2.4"/>
+<vertex x="2.115" y="-1.22"/>
+<vertex x="1.38" y="-0.485"/>
+<vertex x="-1.535" y="-0.485"/>
+<vertex x="-1.535" y="0.475"/>
+<vertex x="-0.535" y="0.475"/>
+<vertex x="-0.535" y="1.525"/>
+<vertex x="-6.585" y="1.525"/>
+<vertex x="-6.585" y="-1.395"/>
+<vertex x="1.415" y="-1.395"/>
+<vertex x="1.415" y="-2.63"/>
+<vertex x="0.66" y="-2.63"/>
+<vertex x="0.66" y="-2.435"/>
+<vertex x="-0.78" y="-2.435"/>
+<vertex x="-0.78" y="-2.59"/>
+<vertex x="-1.54" y="-2.59"/>
+<vertex x="-1.54" y="-2.435"/>
+<vertex x="-8.515" y="-2.435"/>
+<vertex x="-8.515" y="3.485"/>
+<vertex x="21.815" y="3.485"/>
+<vertex x="21.815" y="2.525"/>
+<vertex x="0.415" y="2.525"/>
+<vertex x="0.415" y="0.475"/>
+<vertex x="1.415" y="0.475"/>
+<vertex x="1.415" y="-0.21"/>
+<vertex x="2.325" y="-1.12"/>
+<vertex x="2.325" y="-2.4"/>
+</polygon>
+</package>
+<package name="DN007+0">
+<wire x1="-8.6" y1="-3.3" x2="16.9" y2="-3.3" width="0.127" layer="21" style="shortdash"/>
+<wire x1="16.94" y1="3.61" x2="16.94" y2="1.4" width="0.25" layer="21"/>
+<wire x1="15.94" y1="3.61" x2="15.94" y2="2.4" width="0.25" layer="21"/>
+<wire x1="14.94" y1="3.61" x2="14.94" y2="2.4" width="0.25" layer="21"/>
+<wire x1="13.94" y1="3.61" x2="13.94" y2="2.4" width="0.25" layer="21"/>
+<smd name="FEED" x="2.22" y="-2.8" dx="0.46" dy="1" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="GND@1" x="1.035" y="-2.93" dx="0.74" dy="1.01" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="GND" x="-1.16" y="-2.93" dx="0.74" dy="1.01" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<polygon width="0.25" layer="1">
+<vertex x="2.115" y="-2.4"/>
+<vertex x="2.115" y="-1.22"/>
+<vertex x="1.38" y="-0.485"/>
+<vertex x="-1.535" y="-0.485"/>
+<vertex x="-1.535" y="0.475"/>
+<vertex x="-0.535" y="0.475"/>
+<vertex x="-0.535" y="1.525"/>
+<vertex x="-6.585" y="1.525"/>
+<vertex x="-6.585" y="-1.395"/>
+<vertex x="1.415" y="-1.395"/>
+<vertex x="1.415" y="-2.63"/>
+<vertex x="0.66" y="-2.63"/>
+<vertex x="0.66" y="-2.435"/>
+<vertex x="-0.78" y="-2.435"/>
+<vertex x="-0.78" y="-2.59"/>
+<vertex x="-1.54" y="-2.59"/>
+<vertex x="-1.54" y="-2.435"/>
+<vertex x="-8.515" y="-2.435"/>
+<vertex x="-8.515" y="3.485"/>
+<vertex x="16.815" y="3.485"/>
+<vertex x="16.815" y="2.525"/>
+<vertex x="0.415" y="2.525"/>
+<vertex x="0.415" y="0.475"/>
+<vertex x="1.415" y="0.475"/>
+<vertex x="1.415" y="-0.21"/>
+<vertex x="2.325" y="-1.12"/>
+<vertex x="2.325" y="-2.4"/>
+</polygon>
+</package>
+<package name="DN007+1">
+<wire x1="-8.6" y1="-3.3" x2="16.9" y2="-3.3" width="0.127" layer="21" style="shortdash"/>
+<wire x1="16.94" y1="3.61" x2="16.94" y2="1.4" width="0.25" layer="21"/>
+<wire x1="15.94" y1="3.61" x2="15.94" y2="2.4" width="0.25" layer="21"/>
+<wire x1="14.94" y1="3.61" x2="14.94" y2="2.4" width="0.25" layer="21"/>
+<wire x1="13.94" y1="3.61" x2="13.94" y2="2.4" width="0.25" layer="21"/>
+<smd name="FEED" x="2.22" y="-2.8" dx="0.46" dy="1" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="GND@1" x="1.035" y="-2.93" dx="0.74" dy="1.01" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="GND" x="-1.16" y="-2.93" dx="0.74" dy="1.01" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<polygon width="0.25" layer="1">
+<vertex x="2.115" y="-2.4"/>
+<vertex x="2.115" y="-1.22"/>
+<vertex x="1.38" y="-0.485"/>
+<vertex x="-1.535" y="-0.485"/>
+<vertex x="-1.535" y="0.475"/>
+<vertex x="-0.535" y="0.475"/>
+<vertex x="-0.535" y="1.525"/>
+<vertex x="-6.585" y="1.525"/>
+<vertex x="-6.585" y="-1.395"/>
+<vertex x="1.415" y="-1.395"/>
+<vertex x="1.415" y="-2.63"/>
+<vertex x="0.66" y="-2.63"/>
+<vertex x="0.66" y="-2.435"/>
+<vertex x="-0.78" y="-2.435"/>
+<vertex x="-0.78" y="-2.59"/>
+<vertex x="-1.54" y="-2.59"/>
+<vertex x="-1.54" y="-2.435"/>
+<vertex x="-8.515" y="-2.435"/>
+<vertex x="-8.515" y="3.485"/>
+<vertex x="17.815" y="3.485"/>
+<vertex x="17.815" y="2.525"/>
+<vertex x="0.415" y="2.525"/>
+<vertex x="0.415" y="0.475"/>
+<vertex x="1.415" y="0.475"/>
+<vertex x="1.415" y="-0.21"/>
+<vertex x="2.325" y="-1.12"/>
+<vertex x="2.325" y="-2.4"/>
+</polygon>
+<wire x1="17.94" y1="3.61" x2="17.94" y2="2.4" width="0.25" layer="21"/>
+</package>
+<package name="DN007+2">
+<wire x1="-8.6" y1="-3.3" x2="16.9" y2="-3.3" width="0.127" layer="21" style="shortdash"/>
+<wire x1="16.94" y1="3.61" x2="16.94" y2="1.4" width="0.25" layer="21"/>
+<wire x1="17.94" y1="3.61" x2="17.94" y2="2.4" width="0.25" layer="21"/>
+<wire x1="15.94" y1="3.61" x2="15.94" y2="2.4" width="0.25" layer="21"/>
+<wire x1="14.94" y1="3.61" x2="14.94" y2="2.4" width="0.25" layer="21"/>
+<wire x1="13.94" y1="3.61" x2="13.94" y2="2.4" width="0.25" layer="21"/>
+<smd name="FEED" x="2.22" y="-2.8" dx="0.46" dy="1" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="GND@1" x="1.035" y="-2.93" dx="0.74" dy="1.01" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="GND" x="-1.16" y="-2.93" dx="0.74" dy="1.01" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<polygon width="0.25" layer="1">
+<vertex x="2.115" y="-2.4"/>
+<vertex x="2.115" y="-1.22"/>
+<vertex x="1.38" y="-0.485"/>
+<vertex x="-1.535" y="-0.485"/>
+<vertex x="-1.535" y="0.475"/>
+<vertex x="-0.535" y="0.475"/>
+<vertex x="-0.535" y="1.525"/>
+<vertex x="-6.585" y="1.525"/>
+<vertex x="-6.585" y="-1.395"/>
+<vertex x="1.415" y="-1.395"/>
+<vertex x="1.415" y="-2.63"/>
+<vertex x="0.66" y="-2.63"/>
+<vertex x="0.66" y="-2.435"/>
+<vertex x="-0.78" y="-2.435"/>
+<vertex x="-0.78" y="-2.59"/>
+<vertex x="-1.54" y="-2.59"/>
+<vertex x="-1.54" y="-2.435"/>
+<vertex x="-8.515" y="-2.435"/>
+<vertex x="-8.515" y="3.485"/>
+<vertex x="18.815" y="3.485"/>
+<vertex x="18.815" y="2.525"/>
+<vertex x="0.415" y="2.525"/>
+<vertex x="0.415" y="0.475"/>
+<vertex x="1.415" y="0.475"/>
+<vertex x="1.415" y="-0.21"/>
+<vertex x="2.325" y="-1.12"/>
+<vertex x="2.325" y="-2.4"/>
+</polygon>
+<wire x1="18.94" y1="3.61" x2="18.94" y2="2.4" width="0.25" layer="21"/>
+</package>
+<package name="DN007+3">
+<wire x1="-8.6" y1="-3.3" x2="16.9" y2="-3.3" width="0.127" layer="21" style="shortdash"/>
+<wire x1="16.94" y1="3.61" x2="16.94" y2="1.4" width="0.25" layer="21"/>
+<wire x1="17.94" y1="3.61" x2="17.94" y2="2.4" width="0.25" layer="21"/>
+<wire x1="18.94" y1="3.61" x2="18.94" y2="2.4" width="0.25" layer="21"/>
+<wire x1="15.94" y1="3.61" x2="15.94" y2="2.4" width="0.25" layer="21"/>
+<wire x1="14.94" y1="3.61" x2="14.94" y2="2.4" width="0.25" layer="21"/>
+<wire x1="13.94" y1="3.61" x2="13.94" y2="2.4" width="0.25" layer="21"/>
+<smd name="FEED" x="2.22" y="-2.8" dx="0.46" dy="1" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="GND@1" x="1.035" y="-2.93" dx="0.74" dy="1.01" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="GND" x="-1.16" y="-2.93" dx="0.74" dy="1.01" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<polygon width="0.25" layer="1">
+<vertex x="2.115" y="-2.4"/>
+<vertex x="2.115" y="-1.22"/>
+<vertex x="1.38" y="-0.485"/>
+<vertex x="-1.535" y="-0.485"/>
+<vertex x="-1.535" y="0.475"/>
+<vertex x="-0.535" y="0.475"/>
+<vertex x="-0.535" y="1.525"/>
+<vertex x="-6.585" y="1.525"/>
+<vertex x="-6.585" y="-1.395"/>
+<vertex x="1.415" y="-1.395"/>
+<vertex x="1.415" y="-2.63"/>
+<vertex x="0.66" y="-2.63"/>
+<vertex x="0.66" y="-2.435"/>
+<vertex x="-0.78" y="-2.435"/>
+<vertex x="-0.78" y="-2.59"/>
+<vertex x="-1.54" y="-2.59"/>
+<vertex x="-1.54" y="-2.435"/>
+<vertex x="-8.515" y="-2.435"/>
+<vertex x="-8.515" y="3.485"/>
+<vertex x="19.815" y="3.485"/>
+<vertex x="19.815" y="2.525"/>
+<vertex x="0.415" y="2.525"/>
+<vertex x="0.415" y="0.475"/>
+<vertex x="1.415" y="0.475"/>
+<vertex x="1.415" y="-0.21"/>
+<vertex x="2.325" y="-1.12"/>
+<vertex x="2.325" y="-2.4"/>
+</polygon>
+<wire x1="19.94" y1="3.61" x2="19.94" y2="2.4" width="0.25" layer="21"/>
+</package>
+<package name="DN007+4">
+<wire x1="-8.6" y1="-3.3" x2="16.9" y2="-3.3" width="0.127" layer="21" style="shortdash"/>
+<wire x1="16.94" y1="3.61" x2="16.94" y2="1.4" width="0.25" layer="21"/>
+<wire x1="17.94" y1="3.61" x2="17.94" y2="2.4" width="0.25" layer="21"/>
+<wire x1="18.94" y1="3.61" x2="18.94" y2="2.4" width="0.25" layer="21"/>
+<wire x1="19.94" y1="3.61" x2="19.94" y2="2.4" width="0.25" layer="21"/>
+<wire x1="15.94" y1="3.61" x2="15.94" y2="2.4" width="0.25" layer="21"/>
+<wire x1="14.94" y1="3.61" x2="14.94" y2="2.4" width="0.25" layer="21"/>
+<wire x1="13.94" y1="3.61" x2="13.94" y2="2.4" width="0.25" layer="21"/>
+<smd name="FEED" x="2.22" y="-2.8" dx="0.46" dy="1" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="GND@1" x="1.035" y="-2.93" dx="0.74" dy="1.01" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="GND" x="-1.16" y="-2.93" dx="0.74" dy="1.01" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<polygon width="0.25" layer="1">
+<vertex x="2.115" y="-2.4"/>
+<vertex x="2.115" y="-1.22"/>
+<vertex x="1.38" y="-0.485"/>
+<vertex x="-1.535" y="-0.485"/>
+<vertex x="-1.535" y="0.475"/>
+<vertex x="-0.535" y="0.475"/>
+<vertex x="-0.535" y="1.525"/>
+<vertex x="-6.585" y="1.525"/>
+<vertex x="-6.585" y="-1.395"/>
+<vertex x="1.415" y="-1.395"/>
+<vertex x="1.415" y="-2.63"/>
+<vertex x="0.66" y="-2.63"/>
+<vertex x="0.66" y="-2.435"/>
+<vertex x="-0.78" y="-2.435"/>
+<vertex x="-0.78" y="-2.59"/>
+<vertex x="-1.54" y="-2.59"/>
+<vertex x="-1.54" y="-2.435"/>
+<vertex x="-8.515" y="-2.435"/>
+<vertex x="-8.515" y="3.485"/>
+<vertex x="20.815" y="3.485"/>
+<vertex x="20.815" y="2.525"/>
+<vertex x="0.415" y="2.525"/>
+<vertex x="0.415" y="0.475"/>
+<vertex x="1.415" y="0.475"/>
+<vertex x="1.415" y="-0.21"/>
+<vertex x="2.325" y="-1.12"/>
+<vertex x="2.325" y="-2.4"/>
+</polygon>
+<wire x1="20.94" y1="3.61" x2="20.94" y2="2.4" width="0.25" layer="21"/>
+</package>
+<package name="DN007-1">
+<wire x1="-8.6" y1="-3.3" x2="16.9" y2="-3.3" width="0.127" layer="21" style="shortdash"/>
+<wire x1="14.94" y1="3.61" x2="14.94" y2="2.4" width="0.25" layer="21"/>
+<wire x1="13.94" y1="3.61" x2="13.94" y2="2.4" width="0.25" layer="21"/>
+<smd name="FEED" x="2.22" y="-2.8" dx="0.46" dy="1" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="GND@1" x="1.035" y="-2.93" dx="0.74" dy="1.01" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="GND" x="-1.16" y="-2.93" dx="0.74" dy="1.01" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<polygon width="0.25" layer="1">
+<vertex x="2.115" y="-2.4"/>
+<vertex x="2.115" y="-1.22"/>
+<vertex x="1.38" y="-0.485"/>
+<vertex x="-1.535" y="-0.485"/>
+<vertex x="-1.535" y="0.475"/>
+<vertex x="-0.535" y="0.475"/>
+<vertex x="-0.535" y="1.525"/>
+<vertex x="-6.585" y="1.525"/>
+<vertex x="-6.585" y="-1.395"/>
+<vertex x="1.415" y="-1.395"/>
+<vertex x="1.415" y="-2.63"/>
+<vertex x="0.66" y="-2.63"/>
+<vertex x="0.66" y="-2.435"/>
+<vertex x="-0.78" y="-2.435"/>
+<vertex x="-0.78" y="-2.59"/>
+<vertex x="-1.54" y="-2.59"/>
+<vertex x="-1.54" y="-2.435"/>
+<vertex x="-8.515" y="-2.435"/>
+<vertex x="-8.515" y="3.485"/>
+<vertex x="15.815" y="3.485"/>
+<vertex x="15.815" y="2.525"/>
+<vertex x="0.415" y="2.525"/>
+<vertex x="0.415" y="0.475"/>
+<vertex x="1.415" y="0.475"/>
+<vertex x="1.415" y="-0.21"/>
+<vertex x="2.325" y="-1.12"/>
+<vertex x="2.325" y="-2.4"/>
+</polygon>
+<wire x1="15.94" y1="3.61" x2="15.94" y2="2.4" width="0.25" layer="21"/>
+</package>
+<package name="DN007-2">
+<wire x1="-8.6" y1="-3.3" x2="16.9" y2="-3.3" width="0.127" layer="21" style="shortdash"/>
+<wire x1="13.94" y1="3.61" x2="13.94" y2="2.4" width="0.25" layer="21"/>
+<smd name="FEED" x="2.22" y="-2.8" dx="0.46" dy="1" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="GND@1" x="1.035" y="-2.93" dx="0.74" dy="1.01" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="GND" x="-1.16" y="-2.93" dx="0.74" dy="1.01" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<polygon width="0.25" layer="1">
+<vertex x="2.115" y="-2.4"/>
+<vertex x="2.115" y="-1.22"/>
+<vertex x="1.38" y="-0.485"/>
+<vertex x="-1.535" y="-0.485"/>
+<vertex x="-1.535" y="0.475"/>
+<vertex x="-0.535" y="0.475"/>
+<vertex x="-0.535" y="1.525"/>
+<vertex x="-6.585" y="1.525"/>
+<vertex x="-6.585" y="-1.395"/>
+<vertex x="1.415" y="-1.395"/>
+<vertex x="1.415" y="-2.63"/>
+<vertex x="0.66" y="-2.63"/>
+<vertex x="0.66" y="-2.435"/>
+<vertex x="-0.78" y="-2.435"/>
+<vertex x="-0.78" y="-2.59"/>
+<vertex x="-1.54" y="-2.59"/>
+<vertex x="-1.54" y="-2.435"/>
+<vertex x="-8.515" y="-2.435"/>
+<vertex x="-8.515" y="3.485"/>
+<vertex x="14.815" y="3.485"/>
+<vertex x="14.815" y="2.525"/>
+<vertex x="0.415" y="2.525"/>
+<vertex x="0.415" y="0.475"/>
+<vertex x="1.415" y="0.475"/>
+<vertex x="1.415" y="-0.21"/>
+<vertex x="2.325" y="-1.12"/>
+<vertex x="2.325" y="-2.4"/>
+</polygon>
+<wire x1="14.94" y1="3.61" x2="14.94" y2="2.4" width="0.25" layer="21"/>
+</package>
+<package name="DN007-3">
+<wire x1="-8.6" y1="-3.3" x2="16.9" y2="-3.3" width="0.127" layer="21" style="shortdash"/>
+<wire x1="13.94" y1="3.61" x2="13.94" y2="2.4" width="0.25" layer="21"/>
+<smd name="FEED" x="2.22" y="-2.8" dx="0.46" dy="1" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="GND@1" x="1.035" y="-2.93" dx="0.74" dy="1.01" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="GND" x="-1.16" y="-2.93" dx="0.74" dy="1.01" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<polygon width="0.25" layer="1">
+<vertex x="2.115" y="-2.4"/>
+<vertex x="2.115" y="-1.22"/>
+<vertex x="1.38" y="-0.485"/>
+<vertex x="-1.535" y="-0.485"/>
+<vertex x="-1.535" y="0.475"/>
+<vertex x="-0.535" y="0.475"/>
+<vertex x="-0.535" y="1.525"/>
+<vertex x="-6.585" y="1.525"/>
+<vertex x="-6.585" y="-1.395"/>
+<vertex x="1.415" y="-1.395"/>
+<vertex x="1.415" y="-2.63"/>
+<vertex x="0.66" y="-2.63"/>
+<vertex x="0.66" y="-2.435"/>
+<vertex x="-0.78" y="-2.435"/>
+<vertex x="-0.78" y="-2.59"/>
+<vertex x="-1.54" y="-2.59"/>
+<vertex x="-1.54" y="-2.435"/>
+<vertex x="-8.515" y="-2.435"/>
+<vertex x="-8.515" y="3.485"/>
+<vertex x="13.815" y="3.485"/>
+<vertex x="13.815" y="2.525"/>
+<vertex x="0.415" y="2.525"/>
+<vertex x="0.415" y="0.475"/>
+<vertex x="1.415" y="0.475"/>
+<vertex x="1.415" y="-0.21"/>
+<vertex x="2.325" y="-1.12"/>
+<vertex x="2.325" y="-2.4"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="INVERTED_F_ANTENNA">
+<wire x1="-5.08" y1="10.16" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="15.24" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-7.62" x2="15.24" y2="10.16" width="0.254" layer="94"/>
+<wire x1="15.24" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
+<text x="-2.54" y="7.62" size="1.778" layer="95">Inverted F</text>
+<text x="-2.54" y="5.08" size="1.778" layer="95">antenna</text>
+<rectangle x1="8.128" y1="-3.556" x2="8.636" y2="-3.048" layer="94"/>
+<rectangle x1="7.112" y1="-3.556" x2="7.62" y2="-3.048" layer="94"/>
+<rectangle x1="7.112" y1="-2.286" x2="8.636" y2="-1.778" layer="94"/>
+<rectangle x1="7.62" y1="-1.778" x2="8.128" y2="-1.524" layer="94"/>
+<rectangle x1="5.334" y1="-3.048" x2="8.636" y2="-2.54" layer="94"/>
+<rectangle x1="5.334" y1="-2.54" x2="5.842" y2="-1.016" layer="94"/>
+<rectangle x1="5.842" y1="-1.524" x2="8.128" y2="-1.016" layer="94"/>
+<rectangle x1="8.128" y1="-1.27" x2="12.954" y2="-1.016" layer="94"/>
+<pin name="FEED" x="-7.62" y="2.54" visible="pin" length="short"/>
+<pin name="GND@1" x="-7.62" y="-5.08" visible="pin" length="short"/>
+<pin name="GND" x="-7.62" y="-2.54" visible="pin" length="short"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="INVERTED_F_ANTENNA">
+<description>&lt;b&gt;2.4GHz Inverted F Antenna&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+Based on TI Design Note DN007&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="INVERTED_F_ANTENNA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="+5" package="DN007+5">
+<connects>
+<connect gate="G$1" pin="FEED" pad="FEED"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND@1" pad="GND@1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="+0" package="DN007+0">
+<connects>
+<connect gate="G$1" pin="FEED" pad="FEED"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND@1" pad="GND@1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="+1" package="DN007+1">
+<connects>
+<connect gate="G$1" pin="FEED" pad="FEED"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND@1" pad="GND@1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="+2" package="DN007+2">
+<connects>
+<connect gate="G$1" pin="FEED" pad="FEED"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND@1" pad="GND@1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="+3" package="DN007+3">
+<connects>
+<connect gate="G$1" pin="FEED" pad="FEED"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND@1" pad="GND@1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="+4" package="DN007+4">
+<connects>
+<connect gate="G$1" pin="FEED" pad="FEED"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND@1" pad="GND@1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1" package="DN007-1">
+<connects>
+<connect gate="G$1" pin="FEED" pad="FEED"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND@1" pad="GND@1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-2" package="DN007-2">
+<connects>
+<connect gate="G$1" pin="FEED" pad="FEED"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND@1" pad="GND@1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-3" package="DN007-3">
+<connects>
+<connect gate="G$1" pin="FEED" pad="FEED"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND@1" pad="GND@1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 <library name="PP_FreqCtrl">
 <packages>
 <package name="TSX-3225">
@@ -8182,6 +8668,7 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <part name="C24" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="100nF"/>
 <part name="U$40" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$41" library="microbuilder" deviceset="GND" device=""/>
+<part name="U$44" library="TI_antenna" deviceset="INVERTED_F_ANTENNA" device="+0"/>
 <part name="U$45" library="microbuilder" deviceset="GND" device=""/>
 <part name="C17" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="2.2nF"/>
 <part name="U$46" library="microbuilder" deviceset="GND" device=""/>
@@ -8323,6 +8810,7 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <instance part="C24" gate="G$1" x="91.44" y="55.88" rot="R90"/>
 <instance part="U$40" gate="G$1" x="137.16" y="55.88"/>
 <instance part="U$41" gate="G$1" x="99.06" y="109.22"/>
+<instance part="U$44" gate="G$1" x="152.4" y="20.32" rot="R180"/>
 <instance part="U$45" gate="G$1" x="177.8" y="5.08"/>
 <instance part="C17" gate="G$1" x="142.24" y="50.8" rot="R180"/>
 <instance part="U$46" gate="G$1" x="142.24" y="40.64"/>
@@ -8672,11 +9160,13 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <junction x="104.14" y="114.3"/>
 </segment>
 <segment>
+<pinref part="U$44" gate="G$1" pin="GND"/>
 <wire x1="160.02" y1="22.86" x2="165.1" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="22.86" x2="177.8" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="22.86" x2="177.8" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="B1" gate="G$1" pin="GND"/>
 <wire x1="177.8" y1="58.42" x2="172.72" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="U$44" gate="G$1" pin="GND@1"/>
 <wire x1="160.02" y1="25.4" x2="165.1" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="25.4" x2="165.1" y2="22.86" width="0.1524" layer="91"/>
 <junction x="165.1" y="22.86"/>
@@ -9537,6 +10027,7 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <pinref part="B1" gate="G$1" pin="UNBAL"/>
 <wire x1="172.72" y1="53.34" x2="175.26" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="53.34" x2="175.26" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="U$44" gate="G$1" pin="FEED"/>
 <wire x1="175.26" y1="17.78" x2="160.02" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
