@@ -1002,7 +1002,7 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.127" layer="51"/>
 <text x="-2.54" y="3.298" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
 <text x="-2.54" y="-3.552" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
-<smd name="33" x="0" y="0" dx="3.5" dy="3.5" layer="1" roundness="10" cream="no"/>
+<smd name="GND" x="0" y="0" dx="3.5" dy="3.5" layer="1" roundness="10" cream="no"/>
 <rectangle x1="-1.5" y1="0.125" x2="-0.125" y2="1.5" layer="31"/>
 <rectangle x1="0.125" y1="0.125" x2="1.5" y2="1.5" layer="31"/>
 <rectangle x1="-1.5" y1="-1.5" x2="-0.125" y2="-0.125" layer="31"/>
@@ -2068,7 +2068,7 @@ Footprint designed to mount connector on edge of board, one row on top layer, on
 <devices>
 <device name="" package="QFN32_5MM">
 <connects>
-<connect gate="-SLUG" pin="TP" pad="33"/>
+<connect gate="-SLUG" pin="TP" pad="GND"/>
 <connect gate="A" pin="ACTIVE" pad="6"/>
 <connect gate="A" pin="ANT1" pad="21"/>
 <connect gate="A" pin="ANT2" pad="22"/>
@@ -6535,8 +6535,6 @@ at 30/07/2012 15:32:30</description>
 <wire x1="3.6068" y1="3.6068" x2="3.2258" y2="3.6068" width="0.1524" layer="21"/>
 <wire x1="-3.6068" y1="3.6068" x2="-3.6068" y2="3.2258" width="0.1524" layer="21"/>
 <wire x1="-3.6068" y1="-3.2258" x2="-3.6068" y2="-3.6068" width="0.1524" layer="21"/>
-<text x="-6.1722" y="2.7432" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
-<text x="-6.1722" y="2.7432" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <wire x1="-2.3876" y1="3.6068" x2="-2.3368" y2="3.6068" width="0" layer="51"/>
 <wire x1="-2.3368" y1="3.6068" x2="-2.1082" y2="3.6068" width="0" layer="51"/>
 <wire x1="-3.6068" y1="-3.6068" x2="-2.8956" y2="-3.6068" width="0" layer="51"/>
@@ -6788,8 +6786,6 @@ at 30/07/2012 15:32:30</description>
 <wire x1="3.6068" y1="-2.3876" x2="3.6068" y2="2.3876" width="0" layer="51"/>
 <wire x1="2.6162" y1="3.6068" x2="-2.6162" y2="3.6068" width="0" layer="51"/>
 <wire x1="-3.6068" y1="2.8956" x2="-3.6068" y2="-2.8956" width="0" layer="51"/>
-<text x="-6.1722" y="2.7432" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
-<text x="-6.1722" y="2.7432" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
 <text x="-3.4544" y="-9.525" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 <text x="-3.4544" y="6.985" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
 </package>
