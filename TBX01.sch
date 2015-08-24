@@ -3064,50 +3064,6 @@ For use with ARM7, and ARM9.  Supported by some Cortex M3 boards with SWJ-DP int
 </deviceset>
 </devicesets>
 </library>
-<library name="sharp_LCD">
-<packages>
-<package name="DISPLAY1">
-<wire x1="0" y1="0" x2="28.2" y2="0" width="0.01" layer="20"/>
-<wire x1="28.2" y1="0" x2="28.2" y2="2.24" width="0.01" layer="20"/>
-<wire x1="28.2" y1="2.24" x2="28.2" y2="32.34" width="0.01" layer="20"/>
-<wire x1="28.2" y1="32.34" x2="0" y2="32.34" width="0.01" layer="20"/>
-<wire x1="0" y1="32.34" x2="0" y2="2.24" width="0.01" layer="20"/>
-<wire x1="0" y1="2.24" x2="0" y2="0" width="0.01" layer="20"/>
-<wire x1="0.3" y1="31.94" x2="27.9" y2="31.94" width="0.01" layer="20"/>
-<wire x1="27.9" y1="31.94" x2="27.9" y2="2.44" width="0.01" layer="20"/>
-<wire x1="0.3" y1="2.44" x2="0.3" y2="31.94" width="0.01" layer="20"/>
-<wire x1="2" y1="30.4" x2="26.2" y2="30.4" width="0.01" layer="20"/>
-<wire x1="26.2" y1="30.4" x2="26.2" y2="6.21" width="0.01" layer="20"/>
-<wire x1="26.2" y1="6.21" x2="2" y2="6.21" width="0.01" layer="20"/>
-<wire x1="2" y1="6.21" x2="2" y2="30.4" width="0.01" layer="20"/>
-<wire x1="0" y1="2.24" x2="28.2" y2="2.24" width="0.01" layer="20"/>
-<wire x1="27.9" y1="2.44" x2="0.3" y2="2.44" width="0.01" layer="20"/>
-</package>
-</packages>
-<symbols>
-<symbol name="DISPLAY1">
-<wire x1="0" y1="0" x2="0" y2="25.4" width="0.254" layer="94"/>
-<wire x1="0" y1="25.4" x2="53.34" y2="25.4" width="0.254" layer="94"/>
-<wire x1="53.34" y1="25.4" x2="53.34" y2="0" width="0.254" layer="94"/>
-<wire x1="53.34" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<text x="7.62" y="12.7" size="1.778" layer="94">DISPLAY</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="LS013B4DN04">
-<gates>
-<gate name="G$1" symbol="DISPLAY1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DISPLAY1">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="frames">
 <description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
 <packages>
@@ -8569,7 +8525,6 @@ Based on TI Design Note DN007&lt;br&gt;</description>
 <parts>
 <part name="JP1" library="SparkFun-Connectors" deviceset="USB" device="-MICROB"/>
 <part name="X2" library="con-hirose" deviceset="FH12-10S-0.5S" device="H"/>
-<part name="U$1" library="sharp_LCD" deviceset="LS013B4DN04" device=""/>
 <part name="U6" library="microbuilder" deviceset="MCP73833" device="" value="MCP73833"/>
 <part name="FRAME1" library="frames" deviceset="A3L-LOC" device=""/>
 <part name="SUPPLY1" library="microbuilder" deviceset="GND" device=""/>
@@ -8711,7 +8666,6 @@ Based on TI Design Note DN007&lt;br&gt;</description>
 <instance part="X2" gate="-8" x="-124.46" y="-43.18" rot="R180"/>
 <instance part="X2" gate="-9" x="-124.46" y="-40.64" rot="R180"/>
 <instance part="X2" gate="-10" x="-124.46" y="-38.1" rot="R180"/>
-<instance part="U$1" gate="G$1" x="-182.88" y="-63.5"/>
 <instance part="U6" gate="G$1" x="-86.36" y="154.94"/>
 <instance part="FRAME1" gate="G$1" x="-200.66" y="-73.66"/>
 <instance part="SUPPLY1" gate="G$1" x="-134.62" y="139.7"/>
