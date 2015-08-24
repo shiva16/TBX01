@@ -8543,10 +8543,10 @@ Based on TI Design Note DN007&lt;br&gt;</description>
 <devices>
 <device name="" package="SKSCLDE010">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="4"/>
-<connect gate="G$1" pin="4" pad="3"/>
+<connect gate="G$1" pin="1" pad="3"/>
+<connect gate="G$1" pin="2" pad="4"/>
+<connect gate="G$1" pin="3" pad="2"/>
+<connect gate="G$1" pin="4" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8719,10 +8719,10 @@ Based on TI Design Note DN007&lt;br&gt;</description>
 <instance part="C2" gate="G$1" x="-40.64" y="160.02"/>
 <instance part="SUPPLY5" gate="G$1" x="-40.64" y="139.7"/>
 <instance part="SUPPLY6" gate="G$1" x="-68.58" y="139.7"/>
-<instance part="R1" gate="G$1" x="-68.58" y="147.32" rot="R90"/>
+<instance part="R1" gate="G$1" x="-68.58" y="147.32" rot="R270"/>
 <instance part="SUPPLY8" gate="G$1" x="-104.14" y="139.7"/>
 <instance part="R2" gate="G$1" x="-114.3" y="162.56" rot="R90"/>
-<instance part="R3" gate="G$1" x="-121.92" y="160.02" rot="R90"/>
+<instance part="R3" gate="G$1" x="-129.54" y="160.02" rot="R90"/>
 <instance part="R4" gate="G$1" x="-50.8" y="154.94"/>
 <instance part="IC1" gate="G$1" x="-15.24" y="154.94"/>
 <instance part="C3" gate="G$1" x="25.4" y="157.48"/>
@@ -8767,7 +8767,7 @@ Based on TI Design Note DN007&lt;br&gt;</description>
 <instance part="R13" gate="G$1" x="-167.64" y="25.4" rot="R90"/>
 <instance part="U$17" gate="G$1" x="38.1" y="40.64"/>
 <instance part="C5" gate="G$1" x="30.48" y="48.26" rot="R270"/>
-<instance part="Y1" gate="G$1" x="-33.02" y="2.54"/>
+<instance part="Y1" gate="G$1" x="-33.02" y="2.54" rot="R180"/>
 <instance part="C6" gate="G$1" x="-38.1" y="-5.08"/>
 <instance part="C7" gate="G$1" x="-27.94" y="-5.08"/>
 <instance part="R14" gate="G$1" x="5.08" y="30.48" rot="R90"/>
@@ -8778,7 +8778,7 @@ Based on TI Design Note DN007&lt;br&gt;</description>
 <instance part="U$25" gate="G$1" x="-162.56" y="104.14"/>
 <instance part="U$26" gate="G$1" x="-86.36" y="15.24"/>
 <instance part="C10" gate="G$1" x="-116.84" y="96.52"/>
-<instance part="C11" gate="G$1" x="-106.68" y="96.52"/>
+<instance part="C11" gate="G$1" x="-106.68" y="99.06" rot="R180"/>
 <instance part="C12" gate="G$1" x="-96.52" y="96.52"/>
 <instance part="U$27" gate="G$1" x="-106.68" y="109.22"/>
 <instance part="U$29" gate="G$1" x="-106.68" y="86.36"/>
@@ -8858,7 +8858,6 @@ Based on TI Design Note DN007&lt;br&gt;</description>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="SUPPLY6" gate="G$1" pin="GND"/>
-<wire x1="-68.58" y1="142.24" x2="-68.58" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="GND"/>
@@ -8959,13 +8958,17 @@ Based on TI Design Note DN007&lt;br&gt;</description>
 </segment>
 <segment>
 <pinref part="U$17" gate="G$1" pin="GND"/>
-<wire x1="38.1" y1="55.88" x2="38.1" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="55.88" x2="38.1" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="P$1"/>
+<wire x1="38.1" y1="53.34" x2="38.1" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="48.26" x2="38.1" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="48.26" x2="38.1" y2="48.26" width="0.1524" layer="91"/>
 <junction x="38.1" y="48.26"/>
 <wire x1="35.56" y1="55.88" x2="38.1" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="B6" gate="G$1" pin="4"/>
+<pinref part="B6" gate="G$1" pin="3"/>
+<wire x1="35.56" y1="53.34" x2="38.1" y2="53.34" width="0.1524" layer="91"/>
+<junction x="38.1" y="53.34"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="P$2"/>
@@ -9000,7 +9003,7 @@ Based on TI Design Note DN007&lt;br&gt;</description>
 <wire x1="-116.84" y1="93.98" x2="-116.84" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="P$1"/>
 <wire x1="-116.84" y1="91.44" x2="-106.68" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="-106.68" y1="91.44" x2="-106.68" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="91.44" x2="-106.68" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="P$2"/>
 <wire x1="-106.68" y1="91.44" x2="-96.52" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="-96.52" y1="91.44" x2="-96.52" y2="93.98" width="0.1524" layer="91"/>
@@ -9041,12 +9044,16 @@ Based on TI Design Note DN007&lt;br&gt;</description>
 <pinref part="C19" gate="G$1" pin="P$1"/>
 <wire x1="142.24" y1="134.62" x2="149.86" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="129.54" x2="142.24" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="129.54" x2="142.24" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="129.54" x2="142.24" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="U$36" gate="G$1" pin="GND"/>
+<wire x1="142.24" y1="132.08" x2="142.24" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="134.62" x2="149.86" y2="127" width="0.1524" layer="91"/>
 <junction x="142.24" y="134.62"/>
 <pinref part="B7" gate="G$1" pin="4"/>
 <wire x1="139.7" y1="134.62" x2="142.24" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="B7" gate="G$1" pin="3"/>
+<wire x1="139.7" y1="132.08" x2="142.24" y2="132.08" width="0.1524" layer="91"/>
+<junction x="142.24" y="132.08"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="VSS@1"/>
@@ -9089,6 +9096,10 @@ Based on TI Design Note DN007&lt;br&gt;</description>
 <wire x1="50.8" y1="-53.34" x2="50.8" y2="-55.88" width="0.1524" layer="91"/>
 <junction x="50.8" y="-33.02"/>
 <junction x="50.8" y="-55.88"/>
+<pinref part="B4" gate="G$1" pin="3"/>
+<wire x1="45.72" y1="-33.02" x2="50.8" y2="-33.02" width="0.1524" layer="91"/>
+<pinref part="B2" gate="G$1" pin="3"/>
+<wire x1="45.72" y1="-55.88" x2="50.8" y2="-55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="20.32" y1="-33.02" x2="20.32" y2="-55.88" width="0.1524" layer="91"/>
@@ -9111,6 +9122,10 @@ Based on TI Design Note DN007&lt;br&gt;</description>
 <pinref part="B5" gate="G$1" pin="4"/>
 <wire x1="12.7" y1="-30.48" x2="17.78" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="-30.48" x2="17.78" y2="-33.02" width="0.1524" layer="91"/>
+<pinref part="B5" gate="G$1" pin="3"/>
+<wire x1="12.7" y1="-33.02" x2="17.78" y2="-33.02" width="0.1524" layer="91"/>
+<pinref part="B3" gate="G$1" pin="3"/>
+<wire x1="12.7" y1="-55.88" x2="17.78" y2="-55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$39" gate="G$1" pin="GND"/>
@@ -9248,7 +9263,7 @@ Based on TI Design Note DN007&lt;br&gt;</description>
 <segment>
 <pinref part="U6" gate="G$1" pin="PROG"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="-71.12" y1="152.4" x2="-68.58" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="-71.12" y1="152.4" x2="-68.58" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BAT-STAT1" class="0">
@@ -9274,14 +9289,15 @@ Based on TI Design Note DN007&lt;br&gt;</description>
 <wire x1="-101.6" y1="154.94" x2="-111.76" y2="154.94" width="0.1524" layer="91"/>
 <label x="-116.84" y="154.94" size="1.778" layer="95"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="-111.76" y1="154.94" x2="-121.92" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="-121.92" y1="154.94" x2="-127" y2="154.94" width="0.1524" layer="91"/>
-<junction x="-121.92" y="154.94"/>
+<wire x1="-111.76" y1="154.94" x2="-129.54" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="-129.54" y1="154.94" x2="-127" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="-111.76" y1="154.94" x2="-111.76" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="-111.76" y1="132.08" x2="5.08" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="132.08" x2="5.08" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="U3" gate="A" pin="PB8"/>
 <wire x1="5.08" y1="78.74" x2="-2.54" y2="78.74" width="0.1524" layer="91"/>
+<junction x="-111.76" y="154.94"/>
+<junction x="-129.54" y="154.94"/>
 </segment>
 </net>
 <net name="BAT-PWRGOOD" class="0">
@@ -9357,9 +9373,8 @@ Based on TI Design Note DN007&lt;br&gt;</description>
 <wire x1="-58.42" y1="162.56" x2="-58.42" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="-58.42" y1="167.64" x2="-114.3" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="-114.3" y1="167.64" x2="-121.92" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="-121.92" y1="167.64" x2="-121.92" y2="165.1" width="0.1524" layer="91"/>
-<junction x="-121.92" y="167.64"/>
+<wire x1="-114.3" y1="167.64" x2="-129.54" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="-129.54" y1="167.64" x2="-129.54" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <junction x="-114.3" y="167.64"/>
 <junction x="-58.42" y="162.56"/>
@@ -9381,6 +9396,7 @@ Based on TI Design Note DN007&lt;br&gt;</description>
 <junction x="-40.64" y="162.56"/>
 <junction x="-38.1" y="162.56"/>
 <pinref part="U$32" gate="G$1" pin="VBAT"/>
+<junction x="-129.54" y="167.64"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -9459,7 +9475,7 @@ Based on TI Design Note DN007&lt;br&gt;</description>
 <segment>
 <pinref part="C11" gate="G$1" pin="P$2"/>
 <pinref part="U$27" gate="G$1" pin="VDD"/>
-<wire x1="-106.68" y1="93.98" x2="-106.68" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="101.6" x2="-106.68" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="P$1"/>
 <wire x1="-106.68" y1="104.14" x2="-106.68" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="-96.52" y1="101.6" x2="-96.52" y2="104.14" width="0.1524" layer="91"/>
@@ -9676,7 +9692,7 @@ Based on TI Design Note DN007&lt;br&gt;</description>
 <pinref part="C6" gate="G$1" pin="P$1"/>
 <pinref part="Y1" gate="G$1" pin="2"/>
 <wire x1="-38.1" y1="2.54" x2="-38.1" y2="0" width="0.1524" layer="91"/>
-<wire x1="-38.1" y1="2.54" x2="-30.48" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="2.54" x2="-35.56" y2="2.54" width="0.1524" layer="91"/>
 <junction x="-38.1" y="2.54"/>
 </segment>
 </net>
@@ -9693,7 +9709,7 @@ Based on TI Design Note DN007&lt;br&gt;</description>
 <pinref part="C7" gate="G$1" pin="P$1"/>
 <wire x1="-27.94" y1="2.54" x2="-27.94" y2="0" width="0.1524" layer="91"/>
 <pinref part="Y1" gate="G$1" pin="1"/>
-<wire x1="-35.56" y1="2.54" x2="-27.94" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="2.54" x2="-27.94" y2="2.54" width="0.1524" layer="91"/>
 <junction x="-27.94" y="2.54"/>
 <wire x1="5.08" y1="25.4" x2="5.08" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="10.16" x2="-27.94" y2="10.16" width="0.1524" layer="91"/>
@@ -9885,11 +9901,16 @@ Based on TI Design Note DN007&lt;br&gt;</description>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="119.38" y1="134.62" x2="129.54" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="134.62" x2="132.08" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="134.62" x2="129.54" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="134.62" x2="129.54" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="C19" gate="G$1" pin="P$2"/>
+<wire x1="129.54" y1="132.08" x2="129.54" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="129.54" x2="132.08" y2="129.54" width="0.1524" layer="91"/>
 <junction x="129.54" y="134.62"/>
 <pinref part="B7" gate="G$1" pin="1"/>
+<junction x="119.38" y="134.62"/>
+<pinref part="B7" gate="G$1" pin="2"/>
+<wire x1="132.08" y1="132.08" x2="129.54" y2="132.08" width="0.1524" layer="91"/>
+<junction x="129.54" y="132.08"/>
 </segment>
 </net>
 <net name="N$37" class="0">
@@ -9920,6 +9941,8 @@ Based on TI Design Note DN007&lt;br&gt;</description>
 <pinref part="B3" gate="G$1" pin="1"/>
 <wire x1="2.54" y1="-53.34" x2="5.08" y2="-53.34" width="0.1524" layer="91"/>
 <junction x="2.54" y="-55.88"/>
+<pinref part="B3" gate="G$1" pin="2"/>
+<wire x1="2.54" y1="-55.88" x2="5.08" y2="-55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$40" class="0">
@@ -9937,6 +9960,8 @@ Based on TI Design Note DN007&lt;br&gt;</description>
 <wire x1="2.54" y1="-33.02" x2="2.54" y2="-30.48" width="0.1524" layer="91"/>
 <pinref part="B5" gate="G$1" pin="1"/>
 <wire x1="2.54" y1="-30.48" x2="5.08" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="B5" gate="G$1" pin="2"/>
+<wire x1="5.08" y1="-33.02" x2="2.54" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$41" class="0">
@@ -9954,6 +9979,8 @@ Based on TI Design Note DN007&lt;br&gt;</description>
 <pinref part="B2" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="-53.34" x2="38.1" y2="-53.34" width="0.1524" layer="91"/>
 <junction x="35.56" y="-55.88"/>
+<pinref part="B2" gate="G$1" pin="2"/>
+<wire x1="35.56" y1="-55.88" x2="38.1" y2="-55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$42" class="0">
@@ -9971,6 +9998,8 @@ Based on TI Design Note DN007&lt;br&gt;</description>
 <pinref part="B4" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="-30.48" x2="38.1" y2="-30.48" width="0.1524" layer="91"/>
 <junction x="35.56" y="-33.02"/>
+<pinref part="B4" gate="G$1" pin="2"/>
+<wire x1="35.56" y1="-33.02" x2="38.1" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$43" class="0">
@@ -10101,6 +10130,9 @@ Based on TI Design Note DN007&lt;br&gt;</description>
 <wire x1="22.86" y1="48.26" x2="22.86" y2="55.88" width="0.1524" layer="91"/>
 <junction x="22.86" y="55.88"/>
 <junction x="25.4" y="55.88"/>
+<pinref part="B6" gate="G$1" pin="2"/>
+<wire x1="27.94" y1="53.34" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="53.34" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
