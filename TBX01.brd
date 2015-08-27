@@ -2699,7 +2699,7 @@ Your Eurocircuits Team
 <wire x1="34.671" y1="24.9936" x2="34.8488" y2="25.1714" width="0.254" layer="1"/>
 <via x="34.8488" y="25.1714" extent="1-16" drill="0.6"/>
 <wire x1="34.8488" y1="25.1714" x2="34.7844" y2="25.1714" width="0.254" layer="16"/>
-<wire x1="6.0706" y1="24.892" x2="6.0706" y2="30.607" width="1.27" layer="16"/>
+<wire x1="6.0706" y1="21.7678" x2="6.0706" y2="30.607" width="1.27" layer="16"/>
 <wire x1="6.0706" y1="30.607" x2="6.6802" y2="31.2166" width="1.27" layer="16"/>
 <contactref element="B3" pad="1"/>
 <contactref element="B5" pad="1"/>
@@ -3009,6 +3009,7 @@ Your Eurocircuits Team
 <wire x1="20.3962" y1="33.3094" x2="20.428" y2="33.3412" width="0.4064" layer="16"/>
 <wire x1="10.8966" y1="20.0152" x2="9.1186" y2="18.2372" width="0.4064" layer="1"/>
 <via x="9.1186" y="18.2372" extent="1-16" drill="0.6"/>
+<wire x1="6.0706" y1="21.7678" x2="6.0706" y2="20.6248" width="0.6096" layer="16"/>
 </signal>
 <signal name="VDD">
 <contactref element="C4" pad="1"/>
@@ -4268,10 +4269,10 @@ Your Eurocircuits Team
 <approved hash="18,29,faa2663d6620fabf"/>
 <approved hash="18,29,a0830c0e0c03a08e"/>
 <approved hash="18,29,c98957045719c994"/>
-<approved hash="18,29,25facb79cb7425f7"/>
-<approved hash="18,29,8cf11072106e8ced"/>
 <approved hash="18,29,54e3b86eb86354ee"/>
 <approved hash="18,29,fde863656379fdf4"/>
+<approved hash="18,29,25facb79cb7425f7"/>
+<approved hash="18,29,8cf11072106e8ced"/>
 <approved hash="18,30,235fb25db25f235d"/>
 <approved hash="18,30,17c266c066c217c0"/>
 <approved hash="18,30,c8415b435b46c844"/>
