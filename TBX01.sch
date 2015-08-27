@@ -7939,25 +7939,25 @@ Based on TI Design Note DN007&lt;br&gt;</description>
 <part name="U6" library="microbuilder" deviceset="MCP73833" device="" value="MCP73833"/>
 <part name="FRAME1" library="frames" deviceset="A3L-LOC" device=""/>
 <part name="SUPPLY1" library="microbuilder" deviceset="GND" device=""/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="1 uF"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="4.7 uF"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="4.7uF"/>
 <part name="SUPPLY5" library="microbuilder" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="microbuilder" deviceset="GND" device=""/>
-<part name="R1" library="microbuilder" deviceset="RESISTOR" device="0603" value="14 kOhms"/>
+<part name="R1" library="microbuilder" deviceset="RESISTOR" device="0603" value="14k"/>
 <part name="SUPPLY8" library="microbuilder" deviceset="GND" device=""/>
-<part name="R2" library="microbuilder" deviceset="RESISTOR" device="0603" value="4.7 kOhms"/>
-<part name="R3" library="microbuilder" deviceset="RESISTOR" device="0603" value="4.7kOhms"/>
-<part name="R4" library="microbuilder" deviceset="RESISTOR" device="0603" value="4.7kOhms"/>
+<part name="R2" library="microbuilder" deviceset="RESISTOR" device="0603" value="4.7k"/>
+<part name="R3" library="microbuilder" deviceset="RESISTOR" device="0603" value="4.7k"/>
+<part name="R4" library="microbuilder" deviceset="RESISTOR" device="0603" value="4.7k"/>
 <part name="IC1" library="texas" deviceset="TPS62120" device=""/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="4.7 uF"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="4.7uF"/>
 <part name="SUPPLY2" library="microbuilder" deviceset="GND" device=""/>
 <part name="L1" library="SparkFun-Passives" deviceset="INDUCTOR" device="1210" value="22uH"/>
 <part name="SUPPLY3" library="microbuilder" deviceset="GND" device=""/>
-<part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="15 pF"/>
-<part name="R5" library="microbuilder" deviceset="RESISTOR" device="0603" value="510 kOhms"/>
-<part name="R6" library="microbuilder" deviceset="RESISTOR" device="0603" value="180 kOhms"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="15pF"/>
+<part name="R5" library="microbuilder" deviceset="RESISTOR" device="0603" value="510k"/>
+<part name="R6" library="microbuilder" deviceset="RESISTOR" device="0603" value="180k"/>
 <part name="SUPPLY4" library="microbuilder" deviceset="GND" device=""/>
-<part name="R7" library="microbuilder" deviceset="RESISTOR" device="0603" value="4.7kOhms"/>
+<part name="R7" library="microbuilder" deviceset="RESISTOR" device="0603" value="4.7k"/>
 <part name="U3" library="ST Microelctronics_By_element14_Batch_1" deviceset="STM32L151CCT6" device=""/>
 <part name="U1" library="microbuilder" deviceset="NRF8001" device=""/>
 <part name="B1" library="microbuilder" deviceset="BALUN+LP_NORDIC" device=""/>
@@ -8096,8 +8096,14 @@ Based on TI Design Note DN007&lt;br&gt;</description>
 <instance part="L1" gate="G$1" x="2.54" y="162.56" rot="R90"/>
 <instance part="SUPPLY3" gate="G$1" x="25.4" y="139.7"/>
 <instance part="C4" gate="G$1" x="15.24" y="157.48" rot="R270"/>
-<instance part="R5" gate="G$1" x="5.08" y="160.02"/>
-<instance part="R6" gate="G$1" x="5.08" y="154.94"/>
+<instance part="R5" gate="G$1" x="5.08" y="160.02" smashed="yes">
+<attribute name="NAME" x="2.54" y="162.052" size="1.27" layer="95" font="vector"/>
+<attribute name="VALUE" x="10.16" y="159.385" size="1.27" layer="96" font="vector"/>
+</instance>
+<instance part="R6" gate="G$1" x="5.08" y="154.94" smashed="yes">
+<attribute name="NAME" x="2.54" y="156.972" size="1.27" layer="95" font="vector"/>
+<attribute name="VALUE" x="-5.08" y="154.305" size="1.27" layer="96" font="vector"/>
+</instance>
 <instance part="SUPPLY4" gate="G$1" x="20.32" y="139.7"/>
 <instance part="R7" gate="G$1" x="30.48" y="149.86" rot="R90"/>
 <instance part="U3" gate="A" x="-43.18" y="63.5"/>
@@ -8143,9 +8149,18 @@ Based on TI Design Note DN007&lt;br&gt;</description>
 <instance part="U$24" gate="G$1" x="-139.7" y="175.26"/>
 <instance part="U$25" gate="G$1" x="-162.56" y="96.52"/>
 <instance part="U$26" gate="G$1" x="-86.36" y="15.24"/>
-<instance part="C10" gate="G$1" x="-116.84" y="96.52"/>
-<instance part="C11" gate="G$1" x="-106.68" y="99.06" rot="R180"/>
-<instance part="C12" gate="G$1" x="-96.52" y="96.52"/>
+<instance part="C10" gate="G$1" x="-116.84" y="96.52" smashed="yes">
+<attribute name="NAME" x="-119.38" y="101.6" size="1.27" layer="95" font="vector"/>
+<attribute name="VALUE" x="-119.38" y="93.98" size="1.27" layer="96" font="vector"/>
+</instance>
+<instance part="C11" gate="G$1" x="-106.68" y="99.06" smashed="yes" rot="R180">
+<attribute name="NAME" x="-106.68" y="101.6" size="1.27" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="-104.14" y="96.52" size="1.27" layer="96" font="vector" rot="R180"/>
+</instance>
+<instance part="C12" gate="G$1" x="-96.52" y="96.52" smashed="yes">
+<attribute name="NAME" x="-93.98" y="99.06" size="1.27" layer="95" font="vector"/>
+<attribute name="VALUE" x="-93.98" y="96.52" size="1.27" layer="96" font="vector"/>
+</instance>
 <instance part="U$27" gate="G$1" x="-106.68" y="109.22"/>
 <instance part="U$29" gate="G$1" x="-106.68" y="86.36"/>
 <instance part="U$32" gate="G$1" x="-38.1" y="177.8"/>
