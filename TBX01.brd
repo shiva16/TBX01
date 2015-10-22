@@ -153,7 +153,7 @@
 <hole x="32.385" y="36.6776" drill="2.8"/>
 <hole x="2.3114" y="36.576" drill="2.8"/>
 <hole x="32.639" y="6.0706" drill="2.8"/>
-<text x="4.4196" y="33.7312" size="0.6096" layer="25" font="vector">TBX01 v1.0
+<text x="4.4196" y="33.7312" size="0.6096" layer="25" font="vector">TBX01 v1.1
 27/08/2015 Tomasz Bialas</text>
 </plain>
 <libraries>
